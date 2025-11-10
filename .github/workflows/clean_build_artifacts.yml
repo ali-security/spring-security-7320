@@ -7,7 +7,7 @@ permissions:
 
 jobs:
   main:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     if: ${{ github.repository == 'spring-projects/spring-security' }}
     permissions:
       contents: none
